@@ -1,11 +1,11 @@
 name: Build and deploy Aseprite
 
-on:
-  schedule:
-    - cron: '51 17 * * *'
-  push:
-    branches:
-      - master
+# on:
+#   schedule:
+#     - cron: '51 17 * * *'
+#   push:
+#     branches:
+#       - master
 
 env:
   BUILD_TYPE: Release
